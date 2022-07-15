@@ -3,9 +3,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section{
-    height: 500px;
-    background-color: yellow;
+    height: 600px;
+    background-color: wheat;
     border: 1px solid gray;
+    
 }
 
 .hero{
@@ -40,6 +41,10 @@ li{
 h1{
     font-size: 60px;
     margin: 0;
+}
+
+h2{
+    font-size: 40px;
 }
 
 p{
@@ -91,3 +96,20 @@ p{
 .social{
     margin: 20px
 }
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 0 80px;
+    
+}
+.headshot{
+    width: 500px;
+    /* margin-top: 70px; */
+    /* border-radius: 100%; */
+    /* padding: 40px 0 0 0; */
+}
+.text{
+    font-size: 20px;
+}
+
