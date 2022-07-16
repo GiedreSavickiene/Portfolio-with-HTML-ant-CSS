@@ -6,8 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Slabo+27px&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/b2cd55860e.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
+    <title>Coming soon</title>
 </head>
 
 <body>
@@ -15,16 +16,19 @@
         <nav>
             <img class="logo" src="./src/images/Bevardis.png" alt="logo" />
             <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Giedrė Savickienė</h1>
                 <p>Front End Developer</p>
-                <div class="button">About me</div>
+                <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials">
                 <div>
@@ -51,7 +55,7 @@
             </div>
         </div>
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About me</h2>
             <p class="text">Hello, my name is Giedrė Savickienė, I am beginner for Front End Developer</p>
@@ -62,8 +66,44 @@
         </div>
     </section>
 
-    <section calss="sub-section"></section>
-    <footer></footer>
+    <section class="sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="prodect-card">
+                <img class="project-image" src="./src/images/ComingSoon.jpg" alt="Project Movie" />
+                <h3>Project One</h3>
+                <p class="subtext">This is my first job. Made with HTM, CSS, responsive with @media.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href=" https://giedresavickiene.github.io/Coming-soon/">View here</a></p>
+            </div>
+            <div class="prodect-card">
+                <img class="project-image" src="./src/images/Movie.jpg" alt="Project Movie" />
+                <h3>Project Two</h3>
+                <p class="subtext">This project is made using React, Bootstrap is API.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://giedresavickiene.github.io/Build-MovieSearch-Engine/">View here</a></p>
+            </div>
+            <div class="prodect-card">
+                <img class="project-image" src="./src/images/expences.jpg" alt="Project Movie" />
+                <h3>Project Three</h3>
+                <p class="subtext">I used Reqact and CSS in this project. Income and expenses calculator.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://giedresavickiene.github.io/Expence-Tracker/">View here</a></p>
+            </div>
+
+            <div class="prodect-card">
+                <img class="project-image" src="" alt="Project Movie" />
+                <h3>Project Four</h3>
+                <p class="subtext">This is my project and some text about it</p>
+                <hr />
+                <p class="subtext">View here</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <h2>Contact me</h2>
+        <p>giedre.savickiene78@gmail.com</p>
+    </footer>
 
     <script src="./src/app.js"></script>
 </body>

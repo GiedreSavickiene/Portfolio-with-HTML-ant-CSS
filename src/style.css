@@ -1,11 +1,11 @@
-
+@import './components/font-awesome.min.css';
 body{
     font-family: 'Poppins', sans-serif;
 }
 section{
     height: 600px;
-    background-color: wheat;
-    border: 1px solid gray;
+    background-color: rgb(241, 236, 227);
+   
     
 }
 
@@ -17,8 +17,12 @@ section{
 }
 
 footer{
-    height: 500px;
+    
+    height: 200px;
     background-color: black;
+    color:white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav{
@@ -50,6 +54,11 @@ h2{
 p{
     margin: 0;
     font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext{
+    font-size: 15px;
     font-weight: 300;
 }
 .hero-area{
@@ -103,6 +112,13 @@ p{
     padding: 0 0 0 80px;
     
 }
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
 .headshot{
     width: 500px;
     /* margin-top: 70px; */
@@ -111,5 +127,60 @@ p{
 }
 .text{
     font-size: 20px;
+}
+/* @media (max-width: 975px) {
+    .headshot{
+        width: 350px;
+    }
+    .text {
+        font-size: 17px;
+    }
+}
+@media (max-width: 726px) {
+    .headshot{
+        width: 300px;
+    }
+    .text {
+        font-size: 15px;
+    }
+} */
+
+.prodect-card{
+    width: 350px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+    margin: 10px;
+
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1250px){
+    .project-container,
+    .sub-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.project-image{
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 150px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: #ef744b ;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
