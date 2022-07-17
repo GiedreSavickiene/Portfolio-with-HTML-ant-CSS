@@ -12,6 +12,7 @@ Site published at: https://giedresavickiene.github.io/Portfolio-with-HTML-ant-CS
 -   HTML
 -   CSS
 -   Responsive design
+-   JavaScript
 
 ## Authors
 
