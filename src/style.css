@@ -1,9 +1,10 @@
 @import './components/font-awesome.min.css';
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 section{
-    height: 600px;
+    /* height: 600px; */
     background-color: rgb(241, 236, 227);
    
     
@@ -14,9 +15,10 @@ section{
     height: 100vh;
     color: white;
     font-size: 40px;
+    
 }
 
-footer{
+.footer{
     
     height: 200px;
     background-color: black;
@@ -165,6 +167,7 @@ p{
     .sub-section {
         display: flex;
         flex-wrap: wrap;
+        
     }
 }
 .project-image{
